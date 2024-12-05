@@ -5,12 +5,12 @@ GRASP (General Responsibility Assignment Software Principles) patterns are a set
 - **Purpose**: Promotes low coupling and high cohesion by ensuring that methods are allocated to classes that have the necessary data.
 - **Example**: A `Customer` class should handle tasks related to customer data, such as validating a customer’s credit because it owns that data.
 
-### 2. Creator
+### 2. [Creator](https://github.com/NikolaiKovalenko/edu-grasp-patterns/tree/main/Creator)
 - **Definition**: Assign the responsibility of creating an instance of a class to a class that aggregates, contains, or closely uses the instance.
 - **Purpose**: Helps reduce dependencies among classes and fosters more intuitive designs by ensuring that classes responsible for an object also create it.
 - **Example**: A `ShoppingCart` class should create `CartItem` instances, as it contains and manages cart items.
 
-### 3. Controller
+### 3. [Controller](https://github.com/NikolaiKovalenko/edu-grasp-patterns/tree/main/Controller)
 - **Definition**: Assign the responsibility of handling system events to a controller class that represents the overall system or a use case scenario.
 - **Purpose**: Delegates responsibility from user interface components to a dedicated controller, facilitating the separation of concerns.
 - **Example**: In a GUI application, the `MainController` might handle events like user input, delegating functionality to model and view components.
