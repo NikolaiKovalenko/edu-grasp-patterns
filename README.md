@@ -15,17 +15,17 @@ GRASP (General Responsibility Assignment Software Principles) patterns are a set
 - **Purpose**: Delegates responsibility from user interface components to a dedicated controller, facilitating the separation of concerns.
 - **Example**: In a GUI application, the `MainController` might handle events like user input, delegating functionality to model and view components.
 
-### 4. Low Coupling
+### 4. [Low Coupling](https://github.com/NikolaiKovalenko/edu-grasp-patterns/tree/main/Low_Coupling)
 - **Definition**: Aim to reduce dependencies between classes, promoting loose coupling.
 - **Purpose**: Ensures that changes in one class minimally affect others, enhancing maintainability and flexibility.
 - **Example**: Using interfaces to allow a `PaymentProcessor` to switch between different payment methods without modifying the underlying logic.
 
-### 5. High Cohesion
+### 5. [High Cohesion](https://github.com/NikolaiKovalenko/edu-grasp-patterns/tree/main/High_Cohesion)
 - **Definition**: Assign related responsibilities to a single class to enhance the cohesion of that class.
 - **Purpose**: Makes classes easier to understand and maintain by focusing on a single set of related tasks.
 - **Example**: A `ReportGenerator` class should exclusively handle tasks related to report generation, avoiding unrelated functionalities.
 
-### 6. Polymorphism
+### 6. [Polymorphism](https://github.com/NikolaiKovalenko/edu-grasp-patterns/tree/main/Polymorphism)
 - **Definition**: Use polymorphic methods to handle variation in behavior, often via interfaces or abstract classes.
 - **Purpose**: Reduces the need for conditionals in the code and simplifies class design by leveraging the benefits of polymorphism.
 - **Example**: A `Shape` interface implemented by `Circle` and `Square` classes may have a method `draw()`, allowing for polymorphic invocation for different shapes.
