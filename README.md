@@ -30,17 +30,17 @@ GRASP (General Responsibility Assignment Software Principles) patterns are a set
 - **Purpose**: Reduces the need for conditionals in the code and simplifies class design by leveraging the benefits of polymorphism.
 - **Example**: A `Shape` interface implemented by `Circle` and `Square` classes may have a method `draw()`, allowing for polymorphic invocation for different shapes.
 
-### 7. Pure Fabrication
+### 7. [Pure Fabrication](https://github.com/NikolaiKovalenko/edu-grasp-patterns/tree/main/Pure_Fabrication)
 - **Definition**: Create a class that does not represent a concept in the problem domain to achieve low coupling, high cohesion, or reuse.
 - **Purpose**: Helps maintain a clean design by avoiding an unnecessary dependence on a real-world concept, often leading to a cleaner architecture.
 - **Example**: A `NotificationService` class might handle email and SMS notifications without being tied directly to the domain model.
 
-### 8. Indirection
+### 8. [Indirection](https://github.com/NikolaiKovalenko/edu-grasp-patterns/tree/main/Indirection)
 - **Definition**: Assign responsibilities in a way that avoids direct coupling between classes by introducing an intermediate class.
 - **Purpose**: Reduces the dependencies between classes and aids in decoupling.
 - **Example**: Using a service layer as an intermediary between data access and business logic components.
 
-### 9. Protected Variance
+### 9. [Protected Variance](https://github.com/NikolaiKovalenko/edu-grasp-patterns/tree/main/Protected_Variance)
 - **Definition**: Allow subclasses to alter behavior while keeping their interfaces stable by using encapsulation.
 - **Purpose**: Enables safe variations in behavior through inheritance while maintaining the client interface.
 - **Example**: An abstract `Dialog` class with a method `createButton()` can be overridden in subclasses to produce various types of buttons.
